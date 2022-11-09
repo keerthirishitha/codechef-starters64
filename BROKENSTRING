@@ -1,0 +1,11 @@
+n=int(input())
+while(n!=0):
+    x=int(input())
+    y=str(input())
+    a=y[:x//2]
+    b=y[x//2:x]
+    if a==b:
+        print("YES")
+    else:
+        print('NO')
+    n=n-1
